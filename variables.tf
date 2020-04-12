@@ -60,7 +60,7 @@ variable "disk_size" {
 
 variable "worker_priority" {
   type        = string
-  description = "Set worker priority to Low to use reduced cost surplus capacity, with the tradeoff that instances can be deallocated at any time."
+  description = "Set worker priority to Spot to use reduced cost surplus capacity, with the tradeoff that instances can be deallocated at any time."
   default     = "Regular"
 }
 

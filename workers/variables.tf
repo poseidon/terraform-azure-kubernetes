@@ -52,7 +52,7 @@ variable "os_image" {
 
 variable "priority" {
   type        = string
-  description = "Set priority to Low to use reduced cost surplus capacity, with the tradeoff that instances can be evicted at any time."
+  description = "Set priority to Spot to use reduced cost surplus capacity, with the tradeoff that instances can be evicted at any time."
   default     = "Regular"
 }
 
